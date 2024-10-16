@@ -44,7 +44,7 @@ h2 {
     font-weight: 900;
     color: #F9FAF8;
     margin: 0;
-    max-width: 300px;
+    max-width: 500px;
 }
 
 .awesome-text {
@@ -55,9 +55,14 @@ h2 {
 }
 
 .button-one {
-
+    border-style: hidden;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 .awesome-img {
-    min-width: 300px
+    min-width: 400px
 }
