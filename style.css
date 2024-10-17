@@ -59,10 +59,42 @@ h2 {
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: 700;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 5px;
 }
 
 .awesome-img {
     min-width: 400px
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info-boxes {
+    display: flex;
+    font-size: 12px;
+    color: #1F2937;
+    gap: 30px;
+}
+
+.info-img {
+    border-radius: 10px;
+    aspect-ratio: 1;
+    border: 3px solid;
+    border-color: #3882F6;
+}
+
+.text {
+    width: 100px;
+    flex-wrap: wrap;
+
 }
