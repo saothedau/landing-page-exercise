@@ -107,7 +107,7 @@ h3 {
     width: 150px;
     text-align: justify;
     text-justify: distribute;
-    text-align-last: left;
+    text-align-last: center;
     padding-bottom: 15px;
 }
 
