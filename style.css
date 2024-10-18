@@ -101,14 +101,10 @@ h3 {
     object-fit: cover;
     border: 3px solid;
     border-color: #3882F6;
-    flex-grow: 1;
-    flex-basis: 0;
 }
 
 .text {
     width: 150px;
-    flex-grow: 1;
-    flex-basis: 0;
     text-align: justify;
     text-justify: distribute;
     text-align-last: left;
