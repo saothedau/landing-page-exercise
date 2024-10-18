@@ -8,11 +8,14 @@ body {
     justify-content: space-between;
 }
 
+.blue {
+    background-color: #1F2937;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1F2937;
     padding: 0 150px;
 }
 
@@ -32,7 +35,6 @@ ul {
 
 .welcome {
     display: flex;
-    background-color: #1F2937;
     padding: 50px 150px;
     justify-content: center;
     gap: 50px;
