@@ -35,7 +35,7 @@ ul {
 
 .welcome {
     display: flex;
-    padding: 50px 150px;
+    padding: 100px 150px;
     justify-content: center;
     gap: 50px;
     flex-wrap: wrap;
@@ -63,11 +63,13 @@ h2 {
     color: #F9FAF8;
     font-weight: 700;
     padding: 10px 30px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .awesome-img {
-    min-width: 400px
+    width: 500px;
+    height: 250px;
+    object-fit: contain;
 }
 
 .random {
@@ -90,12 +92,13 @@ h3 {
     justify-content: space-around;
     padding: 0 350px;
     flex-wrap: wrap;
-    
 }
 
 .info-img {
     border-radius: 10px;
-    aspect-ratio: 1;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
     border: 3px solid;
     border-color: #3882F6;
     flex-grow: 1;
@@ -109,6 +112,7 @@ h3 {
     text-align: justify;
     text-justify: distribute;
     text-align-last: left;
+    padding-bottom: 15px;
 }
 
 .quote {
@@ -159,7 +163,7 @@ h3 {
 .button-two {
     font-weight: 700;
     padding: 10px 30px;
-    border-radius: 5px;
+    border-radius: 10px;
     color: #E5E7EB;
     background-color: #3882F6;
     border-style: solid;
