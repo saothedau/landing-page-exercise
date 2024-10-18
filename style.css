@@ -128,3 +128,34 @@ h3 {
     padding-bottom: 100px;
     margin-left: auto;
 }
+
+.sign-up {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 100px;
+    margin: 100px 150px;
+    padding: 50px 75px;
+    border-radius: 10px;
+}
+
+.action-call, .action-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.action-call {
+    font-weight: 700;
+}
+
+.button-two {
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: #E5E7EB;
+}
