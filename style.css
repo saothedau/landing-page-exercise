@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    justify-content: space-between;
 }
 
 .header {
@@ -82,7 +83,7 @@ h3 {
 
 .info-boxes {
     display: flex;
-    font-size: 12px;
+    font-size: 16px;
     color: #1F2937;
     justify-content: space-around;
     padding: 0 350px;
@@ -100,9 +101,12 @@ h3 {
 }
 
 .text {
-    width: 100px;
+    width: 150px;
     flex-grow: 1;
     flex-basis: 0;
+    text-align: justify;
+    text-justify: distribute;
+    text-align-last: left;
 }
 
 .quote {
@@ -158,4 +162,14 @@ h3 {
     background-color: #3882F6;
     border-style: solid;
     border-color: #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 40px 0;
 }
