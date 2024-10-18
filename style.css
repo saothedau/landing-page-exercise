@@ -69,7 +69,7 @@ h2 {
 .awesome-img {
     width: 500px;
     height: 250px;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .random {
